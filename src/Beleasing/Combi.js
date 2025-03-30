@@ -48,7 +48,7 @@ const Combi = () => {
           name="keywords"
           content="Combi Cars, Spacious Vehicles, Family Cars, Cargo Vans, Versatile Cars, DriveOra Combi"
         />
-        <link rel="canonical" href="https://www.driveora.com/combi-cars" />
+        <link rel="canonical" href="https://driveora.live/combi-cars" />
       </Helmet>
 
       <Container fluid className="overflow-hidden mt-5">

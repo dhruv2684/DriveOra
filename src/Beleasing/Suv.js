@@ -53,7 +53,7 @@ const Suv = () => {
           name="keywords"
           content="SUV Cars, Best SUVs, Family SUVs, Off-Road SUVs, Luxury SUVs, Fuel-Efficient SUVs, driveOra SUVs"
         />
-        <link rel="canonical" href="https://www.driveora.com/suvs" />
+        <link rel="canonical" href="https://driveora.live/suvs" />
       </Helmet>
 
       <Container fluid className="overflow-hidden mt-5">

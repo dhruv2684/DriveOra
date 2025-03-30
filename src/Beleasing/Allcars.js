@@ -98,7 +98,7 @@ const Allcars = () => {
           content="Luxury Cars, Sports Cars, Performance Vehicles, Car Collection, Best Car Deals, driveOra Cars"
         />
 
-        <link rel="canonical" href="https://yourwebsite.com/cars" />
+        <link rel="canonical" href="https://driveora.live/cars" />
       </Helmet>
 
 

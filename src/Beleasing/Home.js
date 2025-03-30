@@ -29,6 +29,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
 import { Helmet } from "react-helmet";
+import Popunderads from './Cars/Popunderads';
 
 
 const Home = () => {
@@ -55,7 +56,7 @@ const Home = () => {
         <meta name="robots" content="index, follow" />
 
         {/* Canonical Tag */}
-        <link rel="canonical" href="https://www.driveora.com" />
+        <link rel="canonical" href="https://driveora.live/" />
 
         {/* Open Graph (For Facebook & Social Media) */}
         <meta property="og:title" content="Luxury Cars for Lease & Sale | Best Deals 2025" />
@@ -63,8 +64,8 @@ const Home = () => {
           property="og:description"
           content="Drive your dream luxury car! Explore the best leasing & sale offers on premium cars in 2025."
         />
-        <meta property="og:image" content="https://www.driveora.com/images/luxury-car.jpg" />
-        <meta property="og:url" content="https://www.driveora.com" />
+        <meta property="og:image" content="https://driveora.live//images/luxury-car.jpg" />
+        <meta property="og:url" content="https://driveora.live/" />
         <meta property="og:type" content="website" />
 
         {/* Twitter Card (For Twitter SEO) */}
@@ -74,7 +75,7 @@ const Home = () => {
           name="twitter:description"
           content="Find top luxury car leasing & sales deals. Affordable prices & exclusive offers!"
         />
-        <meta name="twitter:image" content="https://www.driveora.com/images/luxury-car.jpg" />
+        <meta name="twitter:image" content="https://driveora.live//images/luxury-car.jpg" />
 
         {/* Schema Markup (For Google Rich Snippets) */}
         <script type="application/ld+json">
@@ -93,13 +94,15 @@ const Home = () => {
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock"
       },
-      "image": "https://www.driveora.com/images/luxury-car.jpg",
-      "url": "https://www.driveora.com"
+      "image": "https://driveora.live//images/luxury-car.jpg",
+      "url": "https://driveora.live/"
     }
     `}
         </script>
       </Helmet>
-
+      <div>
+        <Popunderads />
+      </div>
 
       {/* IMG */}
       <Container fluid className='bele-img mt-1'>

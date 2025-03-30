@@ -31,7 +31,7 @@ const Contact = () => {
           content="Car Leasing Support, 24/7 Car Assistance, Best Car Deals, Luxury Car Help, Car Sales Experts"
         />
 
-        <link rel="canonical" href="https://yourwebsite.com/support" />
+        <link rel="canonical" href="https://driveora.live/support" />
       </Helmet>
 
 

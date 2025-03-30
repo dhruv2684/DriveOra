@@ -11,7 +11,7 @@ const NotFound = () => {
           <title>404 Not Found | DriveOra</title>
           <meta name="description" content="Oops! The page you are looking for does not exist." />
           <meta name="keywords" content="404, Not Found, Page Missing, Error Page" />
-          <link rel="canonical" href="https://yourwebsite.com/404" />
+          <link rel="canonical" href="https://driveora.live/404" />
         </Helmet>
 
 

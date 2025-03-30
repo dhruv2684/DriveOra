@@ -27,7 +27,7 @@ const Hatchback = () => {
         <title>Compact & Efficient Hatchbacks | Best Small Cars | driveOra</title>
         <meta name="description" content="Explore the best hatchback cars with advanced features, fuel efficiency, and compact design. Find your perfect city ride with driveOra." />
         <meta name="keywords" content="Hatchback Cars, Compact Cars, Fuel Efficient Cars, Best City Cars, driveOra Hatchbacks" />
-        <link rel="canonical" href="https://yourwebsite.com/hatchbacks" />
+        <link rel="canonical" href="https://driveora.live/hatchbacks" />
       </Helmet>
 
       <Container fluid className="overflow-hidden mt-5">

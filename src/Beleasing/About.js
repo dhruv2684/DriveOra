@@ -30,7 +30,7 @@ const About = () => {
           content="Trusted Car Leasing Experts, Luxury Car Leasing, Best Car Leasing Deals, Car Rental Experts, Affordable Car Sales"
         />
 
-        <link rel="canonical" href="https://yourwebsite.com/about" />
+        <link rel="canonical" href="https://driveora.live/about" />
       </Helmet>
 
 

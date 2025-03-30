@@ -35,7 +35,7 @@ const Sedan = () => {
           name="keywords"
           content="Luxury Sedan, Premium Cars, Comfortable Rides, Sedan Performance, driveOra Sedans"
         />
-        <link rel="canonical" href="https://yourwebsite.com/sedans" />
+        <link rel="canonical" href="https://driveora.live/sedans" />
       </Helmet>
 
       <Container fluid className="overflow-hidden mt-5">

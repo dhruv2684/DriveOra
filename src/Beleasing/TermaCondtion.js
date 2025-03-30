@@ -40,7 +40,7 @@ const TermaCondtion = () => {
                     content="driveOra Terms and Conditions, Car Leasing Policies, Luxury Car Sales Rules, Website Usage Terms"
                 />
 
-                <link rel="canonical" href="https://yourwebsite.com/terms-and-conditions" />
+                <link rel="canonical" href="https://driveora.live/terms-and-conditions" />
             </Helmet>
 
 

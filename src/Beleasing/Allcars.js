@@ -22,7 +22,7 @@ import { FaLink } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
 import NativeBnerads from './NativeBnerads';
-import Popunderads from './Cars/Popunderads';
+import Popunderads from './Popunderads';
 
 
 
@@ -162,6 +162,10 @@ const Allcars = () => {
         </Row>
       </Container>
 
+      <div>
+        <NativeBnerads />
+      </div>
+
       {/* RENTING IS PURE CONVENIENCE */}
       <Container fluid className="pb-5 bg-light" style={{ overflowX: "hidden" }}>
         <Row className="align-items-center">
@@ -205,7 +209,9 @@ const Allcars = () => {
         </Row>
       </Container>
 
-
+      <div>
+        <NativeBnerads />
+      </div>
 
     </div>
   )

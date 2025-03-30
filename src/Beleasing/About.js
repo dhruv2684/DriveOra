@@ -123,6 +123,10 @@ const About = () => {
 
         </Row>
 
+        <div>
+          <NativeBnerads />
+        </div>
+
         <Row>
 
           {/* Left Image */}
@@ -224,7 +228,9 @@ const About = () => {
       </Container>
 
 
-
+      <div>
+        <NativeBnerads />
+      </div>
 
     </div >
   )

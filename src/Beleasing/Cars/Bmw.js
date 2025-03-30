@@ -10,10 +10,12 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa";
+import NativeBnerads from '../NativeBnerads';
 
 const Bmw = () => {
   return (
     <div>
+
 
       <Container fluid className="mt-5 mb-5">
         <Row className='align-items-center'>
@@ -35,7 +37,9 @@ const Bmw = () => {
         </Row>
       </Container>
 
-      
+      <div>
+        <NativeBnerads />
+      </div>
 
       {/* KEY SPECIFICATIONS OF BMW COMMODO IPSUM */}
       <Container fluid className='bg-light pt-5 pb-5'>
@@ -184,6 +188,10 @@ const Bmw = () => {
           </div>
         </Row>
       </Container>
+
+      <div>
+        <NativeBnerads />
+      </div>
 
       {/* RENTING IS PURE CONVENIENCE */}
       <Container fluid className='pb-md-5 pb-3 pt-5  bg-light'>

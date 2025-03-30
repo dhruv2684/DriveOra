@@ -10,8 +10,8 @@ import audimiddel from '../Beleasing Img/audipng-removebg-preview.png'
 import contact from '../Beleasing Img/contact.jpeg'
 import { FaInstagram } from "react-icons/fa";
 import { Helmet } from 'react-helmet';
-import Popunderads from './Cars/Popunderads';
 import NativeBnerads from './NativeBnerads';
+import Popunderads from './Popunderads';
 
 
 
@@ -176,6 +176,9 @@ const Contact = () => {
         </Row>
       </Container>
 
+      <div>
+        <NativeBnerads />
+      </div>
 
     </div>
   )

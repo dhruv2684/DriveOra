@@ -12,7 +12,7 @@ import lamborghinirutrumlibero from '../Beleasing Img/LAMBORGHINI RUTRUM LIBERO.
 import MERCEDESCob from '../Beleasing Img/marsci.jpeg';
 import MercedesMATTIS from '../Beleasing Img/MERCEDES MATTIS ARCU MAXIMUS.jpeg';
 import hhatchback from '../Beleasing Img/hatchback car.webp';
-import Popunderads from './Cars/Popunderads';
+import Popunderads from './Popunderads';
 
 const cars = [
   { name: "BMW COMMODO IPSUM", price: "$1,990.00", link: "/bmw-commodo-ipsum", img: bmwcommodoipsum },

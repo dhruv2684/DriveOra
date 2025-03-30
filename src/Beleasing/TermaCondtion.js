@@ -6,6 +6,7 @@ import lamborghinirutrumlibero from '../Beleasing Img/LAMBORGHINI RUTRUM LIBERO.
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
+import NativeBnerads from './NativeBnerads'
 
 
 const cars = [
@@ -104,28 +105,9 @@ const TermaCondtion = () => {
                     <div className="col-lg-4 col-12 my-5">
                         <h2 className="text-center mb-4">Most Popular Cars in driveOra</h2>
                         <p className="text-center text-muted">Discover the top luxury cars available on driveOra.</p>
-                        {cars.map((car, index) => (
-                            <div key={index} className="">
-                                <div className="bg-white pb-4 position-relative hov-link">
-                                    <Link to={car.link}>
-                                        <img src={car.img} width="100%" alt={car.name} />
-                                    </Link>
-                                    <Link to={car.link} className="link-pos bg-white p-2 rounded-circle">
-                                        <FaLink className="text-dark" />
-                                    </Link>
-                                    <div className="pt-4 ms-4 me-4">
-                                        <h5>{car.name}</h5>
-                                        <p className="c-g">{car.price}</p>
-                                        <div className="d-flex border-top pt-3 align-items-center justify-content-between">
-                                            <p className="mb-0">Check details</p>
-                                            <Link to={car.link}>
-                                                <FaArrowRight className="text-dark" />
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
+                        <div>
+                            <NativeBnerads />
+                        </div>
                     </div>
 
 

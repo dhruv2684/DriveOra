@@ -30,7 +30,7 @@ import { FaArrowCircleRight } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
 import { Helmet } from "react-helmet";
 import NativeBnerads from './NativeBnerads';
-import Popunderads from './Cars/Popunderads';
+import Popunderads from './Popunderads';
 
 
 const Home = () => {
@@ -262,6 +262,10 @@ const Home = () => {
         </Row>
       </Container>
 
+      <div>
+        <NativeBnerads />
+      </div>
+
       {/* RENTING IS PURE CONVENIENCE */}
       <Container fluid className="pb-5 bg-light" style={{ overflowX: "hidden" }}>
         <Row className="align-items-center">
@@ -403,6 +407,11 @@ const Home = () => {
           </Row>
         </Container>
       </Container>
+
+
+      <div>
+        <NativeBnerads />
+      </div>
 
       {/* HOW MUCH WILL YOU PAY? */}
       <Container fluid className="bg-light pt-5 pb-5 mt-5 overflow-hidden">

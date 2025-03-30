@@ -13,7 +13,7 @@ import fordenimnibhlitora from '../Beleasing Img/fordenimnibhlitora.jpeg';
 import MERCEDESCob from '../Beleasing Img/marsci.jpeg';
 import AudiGT from '../Beleasing Img/2023 Audi R8 GT Coupe.jpeg';
 import suvcar from '../Beleasing Img/suv car.webp';
-import Popunderads from './Cars/Popunderads';
+import Popunderads from './Popunderads';
 
 const cars = [
   {

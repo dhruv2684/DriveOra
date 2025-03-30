@@ -38,6 +38,11 @@ const Sedan = () => {
         <link rel="canonical" href="https://driveora.live/sedans" />
       </Helmet>
 
+      {/* Ads Code */}
+      <div>
+        <Popunderads />
+      </div>
+
       <Container fluid className="overflow-hidden mt-5">
         <Row className="align-items-center">
           <div className="col-md-7 col-12 order-md-1 order-2">

@@ -100,9 +100,11 @@ const Home = () => {
     `}
         </script>
       </Helmet>
-      <div>
+
+      {/* Ads Code */}
+      {/* <div>
         <Popunderads />
-      </div>
+      </div> */}
 
       {/* IMG */}
       <Container fluid className='bele-img mt-1'>

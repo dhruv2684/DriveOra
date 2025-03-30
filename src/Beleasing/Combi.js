@@ -51,6 +51,12 @@ const Combi = () => {
         <link rel="canonical" href="https://driveora.live/combi-cars" />
       </Helmet>
 
+
+      {/* Ads Code */}
+      <div>
+        <Popunderads />
+      </div>
+      
       <Container fluid className="overflow-hidden mt-5">
         <Row className="align-items-center">
           {/* Text Section */}

@@ -29,7 +29,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
 import { Helmet } from "react-helmet";
-import Popunderads from './Cars/Popunderads';
+// import Popunderads from './Cars/Popunderads';
 
 
 const Home = () => {

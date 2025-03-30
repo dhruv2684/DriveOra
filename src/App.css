@@ -1,0 +1,362 @@
+* {
+    text-decoration: none !important;
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto' sans-serif;
+    font-weight: 500;
+}
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-color_hdr {
+    color: #ffff;
+    background-color: #16182d;
+}
+
+.text-color_hdr:hover {
+    color: #ffff;
+    background-color: #16182d;
+}
+
+.w-30 {
+    width: 30%;
+    overflow: hidden;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-toggler {
+    border: 0px solid #ffffff00 !important;
+}
+
+
+/* header */
+.bele-hov:hover {
+    color: #16182d !important;
+}
+
+.fw {
+    font-weight: 500;
+}
+
+.sticky {
+    position: fixed !important;
+    z-index: 999;
+}
+
+.menu {
+    background-color: #ffff !important;
+    position: absolute;
+    left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: none;
+}
+
+.aaaa li:hover .menu {
+    display: block !important;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.figure {
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.figure:hover {
+    transform: scale(1.1);
+}
+
+/* footer */
+.bg-dark-blue {
+    background-color: #16182d !important;
+}
+
+.footer:hover {
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+/* Home page  */
+
+.bele-img {
+    background-image: url("/src/public/homeaudi.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.pd {
+    padding: 30% 0% 5% 0%;
+}
+
+.bele-img-1 {
+    background-image: url('/src/public/aboutus.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 10% 0 0 0;
+}
+
+.bele-img-2 {
+    background-image: url('/src/public/ask\ anything.jpeg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 10% 0 0 0;
+}
+
+.word {
+    letter-spacing: 2px;
+}
+
+.color {
+    color: #202448 !important;
+}
+
+.bg-light {
+    background-color: #ece5e5c7 !important;
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+.color-1 {
+    color: #16182d !important;
+}
+
+.hov-up:hover {
+    transform: translateY(-9px) !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.bg-color {
+    background-color: #16182d !important;
+}
+
+.b-color {
+    background-color: #16182d !important;
+}
+
+.b-color:hover {
+    background-color: #202248 !important;
+}
+
+.fs-65 {
+    font-size: 65px;
+}
+
+.bg-light-pink {
+    background-color: rgba(243, 207, 213, 0.534) !important;
+}
+
+.w-20 {
+    width: calc(20% - 28px);
+}
+
+.pos-t {
+    top: 295px;
+    position: absolute;
+}
+
+.link-pos {
+    top: 15px;
+    right: 22px;
+    position: absolute;
+    display: none;
+}
+
+.hov-link:hover .link-pos {
+    display: block !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.count {
+    position: absolute;
+    bottom: -100px;
+}
+
+.bele-img-3 {
+    position: absolute;
+    top: 264px;
+    width: 200px;
+    padding: 15px 5px;
+
+}
+
+
+/* header........... */
+.text {
+    color: #5f2a5d !important;
+}
+
+.call-btn {
+    background-color: #ffa5846b !important;
+    color: #5f2a5d !important;
+    font-weight: 600 !important;
+    padding: 8px 15px !important;
+    /* display: inline-block !important; */
+}
+
+.call-btn:hover {
+    background-color: #ffa584 !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.bg-orange {
+    background-color: #e6c9be88 !important;
+}
+
+.text-orange {
+    color: #ffa584 !important;
+}
+
+.dimon-img {
+    background-image: url(https://themes.muffingroup.com/be/language4/wp-content/uploads/2022/04/language4-section-bg4.svg);
+    width: 100%;
+    background-position: center;
+}
+
+
+
+.point:hover {
+    cursor: pointer;
+    color: #003366;
+}
+
+
+.box {
+    box-shadow: 0px 0px 3px black;
+    display: inline-block;
+    width: 50%;
+}
+
+.img-dumy img {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------- CHNAGES FOR LIVE  */
+.custom-dropdown .dropdown-menu {
+    background-color: #16182d !important;
+    border-radius: 8px;
+    padding: 10px;
+    min-width: 220px;
+    border: 1px solid #343a40;
+}
+
+.custom-dropdown .dropdown-item {
+    color: #ffffff !important;
+    padding: 12px 15px;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    border-radius: 5px;
+}
+
+.custom-dropdown .dropdown-item:hover {
+    background-color: #2d2f47b6 !important;
+    color: white !important;
+    font-weight: 600;
+    transform: translateX(5px);
+}
+
+.custom-dropdown .dropdown-divider {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.border-bottom_text {
+    border-bottom: 1px solid #16182d;
+}
+
+.video-box {
+    height: 150px;
+    padding: 10px;
+}
+
+.fs {
+    font-size: 18px;
+}
+
+@media (max-width:767px) {
+    .video-box {
+        height: 70px;
+    }
+
+    .count {
+        position: absolute;
+        bottom: -140px;
+    }
+
+    .fs {
+        font-size: 12px;
+    }
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* Adjust as needed */
+}
+
+.btnn_not_found {
+    padding: 12px 24px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: linear-gradient(135deg, #0046d4, #16182d);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    /* Ensures text and icon are centered */
+}
+
+.btnn_not_found i {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btnn_not_found:hover {
+    background: linear-gradient(135deg, #16182d, #0046d4);
+    box-shadow: 0 4px 10px rgba(0, 70, 212, 0.5);
+}
+
+.btnn_not_found:hover i {
+    transform: translateX(5px);
+}
+.bg-blue-light{
+    background-color: #16182dec !important;
+}

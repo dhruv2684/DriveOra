@@ -11,6 +11,7 @@ import contact from '../Beleasing Img/contact.jpeg'
 import { FaInstagram } from "react-icons/fa";
 import { Helmet } from 'react-helmet';
 import Popunderads from './Cars/Popunderads';
+import NativeBnerads from './NativeBnerads';
 
 
 
@@ -35,6 +36,10 @@ const Contact = () => {
       {/* Ads Code */}
       <div>
         <Popunderads />
+      </div>
+
+      <div>
+        <NativeBnerads />
       </div>
 
       {/*  */}

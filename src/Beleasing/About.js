@@ -11,6 +11,7 @@ import ger from '../Beleasing Img/gerunty.svg'
 import ret from '../Beleasing Img/return.svg'
 import img1 from '../Beleasing Img/buy to driveora.jpeg'
 import { Helmet } from 'react-helmet';
+import NativeBnerads from './NativeBnerads';
 
 
 
@@ -19,7 +20,7 @@ const About = () => {
     <div>
 
       <Helmet>
-      <title>About Us - Trusted Luxury Car Leasing Experts | 15+ Years of Excellence</title>
+        <title>About Us - Trusted Luxury Car Leasing Experts | 15+ Years of Excellence</title>
 
         <meta
           name="description"
@@ -33,7 +34,9 @@ const About = () => {
         <link rel="canonical" href="https://driveora.live/about" />
       </Helmet>
 
-
+      <div>
+        <NativeBnerads />
+      </div>
 
       {/* main img */}
       <Container fluid className="bele-img-1 overflow-hidden"> {/* ✅ Prevent Horizontal Scroll */}

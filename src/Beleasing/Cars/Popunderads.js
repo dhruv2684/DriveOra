@@ -11,16 +11,11 @@ const Popunderads = () => {
         document.body.appendChild(script);
 
         return () => {
-            document.body.removeChild(script); // Cleanup script on unmount
+            document.body.removeChild(script); // Remove script on page change
         };
     }, []);
 
-    return (
-        <div>
-            <h2>Sponsored Ad</h2>
-            <div id="ad-container"></div>
-        </div>
-    );
+    return null; // Popunder ads are not visible elements
 }
 
 export default Popunderads

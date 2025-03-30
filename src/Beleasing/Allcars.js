@@ -21,6 +21,8 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
+import NativeBnerads from './NativeBnerads';
+import Popunderads from './Cars/Popunderads';
 
 
 
@@ -101,6 +103,13 @@ const Allcars = () => {
         <link rel="canonical" href="https://driveora.live/cars" />
       </Helmet>
 
+      <div>
+        <NativeBnerads />
+      </div>
+
+      <div>
+        <Popunderads />
+      </div>
 
       {/*  */}
       <Container fluid className="overflow-hidden mt-5 pt-3">

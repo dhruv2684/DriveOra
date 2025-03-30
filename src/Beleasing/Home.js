@@ -406,10 +406,13 @@ const Home = () => {
       </Container>
 
       <div>
-        <Bannerads />
+        <Bannerads
+          adId="container-e77bb2e2acba01d8566247f1d3ac8b8d"
+          scriptSrc="//pl26253785.effectiveratecpm.com/e77bb2e2acba01d8566247f1d3ac8b8d/invoke.js"
+        />
       </div>
 
-      
+
       {/* HOW MUCH WILL YOU PAY? */}
       <Container fluid className="bg-light pt-5 pb-5 mt-5 overflow-hidden">
         <Row className="align-items-center">

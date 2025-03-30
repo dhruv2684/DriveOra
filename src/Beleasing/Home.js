@@ -102,9 +102,7 @@ const Home = () => {
         </script>
       </Helmet>
 
-      <div>
-        <NativeBnerads />
-      </div>
+
 
       {/* IMG */}
       <Container fluid className='bele-img mt-1'>
@@ -153,6 +151,10 @@ const Home = () => {
           </div>
         </Row>
       </Container>
+      
+      <div>
+        <NativeBnerads />
+      </div>
 
       {/* 4 car with hover  */}
       <Container fluid className="pt-5" style={{ overflowX: "hidden" }}>

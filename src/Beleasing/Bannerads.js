@@ -1,39 +1,43 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect } from "react";
 
-const Bannerads = () => {
-    
+const BannerAd = () => {
     useEffect(() => {
-        const script1 = document.createElement("script");
-        script1.type = "text/javascript";
-        script1.innerHTML = `
-          atOptions = {
-            'key' : '83418254477f26e4d7c7658c837a66ec',
-            'format' : 'iframe',
-            'height' : 250,
-            'width' : 300,
-            'params' : {}
-          };
-        `;
-        document.body.appendChild(script1);
+        const adContainer = document.getElementById("ad-container");
 
-        const script2 = document.createElement("script");
-        script2.type = "text/javascript";
-        script2.src = "//www.highperformanceformat.com/83418254477f26e4d7c7658c837a66ec/invoke.js";
-        document.body.appendChild(script2);
+        if (adContainer) {
+            adContainer.innerHTML = ""; // Purge old ads
 
-        return () => {
-            document.body.removeChild(script1);
-            document.body.removeChild(script2);
+            const script1 = document.createElement("script");
+            script1.type = "text/javascript";
+            script1.innerHTML = `
+        atOptions = {
+          'key' : 'eaa60ae4631a88d3d82d16b72b9c9d81',
+          'format' : 'iframe',
+          'height' : 60,
+          'width' : 468,
+          'params' : {}
         };
+      `;
+            adContainer.appendChild(script1);
+
+            const script2 = document.createElement("script");
+            script2.type = "text/javascript";
+            script2.src = "//www.highperformanceformat.com/eaa60ae4631a88d3d82d16b72b9c9d81/invoke.js";
+            script2.async = true;
+            script2.defer = true;
+            adContainer.appendChild(script2);
+        }
     }, []);
 
     return (
         <div>
-            <h3>Banner Ad</h3>
-            <div id="ad-container" style={{ width: "300px", height: "250px" }}></div>
+            <h3>Adsterra Banner Ad</h3>
+            <div
+                id="ad-container"
+                style={{ width: "468px", height: "60px", overflow: "hidden" }}
+            ></div>
         </div>
     );
+};
 
-}
-
-export default Bannerads
+export default BannerAd;

@@ -8,6 +8,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa";
+import NativeBnerads from '../NativeBnerads';
 
 const Bmwproin = () => {
   return (
@@ -32,47 +33,9 @@ const Bmwproin = () => {
         </Row>
       </Container>
 
-      {/*  TECHNICAL SPECIFICATIONS  */}
-      {/* <Container fluid className='mt-5 pt-5 pb-5 bg-light'>
-        <Row className='gap-2'>
-          <h3 className="">TECHNICAL SPECIFICATIONS</h3>
-          <div className="w-20 ms-3  bg-white p-4">
-            <img src="https://themes.muffingroup.com/be/leasing2/wp-content/uploads/2023/02/beleasing2-productdetails-icon1.svg" width="40%" alt="" />
-            <div className="ms-3">
-              <h5 className="mt-2">Class</h5>
-              <div className="c-g">Offroad</div>
-            </div>
-          </div>
-          <div className="w-20 ms-3  bg-white p-4">
-            <img src="https://themes.muffingroup.com/be/leasing2/wp-content/uploads/2023/02/beleasing2-productdetails-icon2.svg" width="40%" alt="" />
-            <div className="ms-3">
-              <h5 className="mt-2">Doors</h5>
-              <div className="c-g">5</div>
-            </div>
-          </div>
-          <div className="w-20 ms-3  bg-white p-4">
-            <img src="https://themes.muffingroup.com/be/leasing2/wp-content/uploads/2023/02/beleasing2-productdetails-icon3.svg" width="40%" alt="" />
-            <div className="ms-3">
-              <h5 className="mt-2">Fuel usage</h5>
-              <div className="c-g">10l/100mi</div>
-            </div>
-          </div>
-          <div className="w-20 ms-3  bg-white p-4">
-            <img src="https://themes.muffingroup.com/be/leasing2/wp-content/uploads/2023/02/beleasing2-productdetails-icon4.svg" width="40%" alt="" />
-            <div className="ms-3">
-              <h5 className="mt-2">Fuel</h5>
-              <div className="c-g">Gasoline</div>
-            </div>
-          </div>
-          <div className="w-20 ms-3  bg-white p-4">
-            <img src="https://themes.muffingroup.com/be/leasing2/wp-content/uploads/2023/02/beleasing2-productdetails-icon5.svg" width="40%" alt="" />
-            <div className="ms-3">
-              <h5 className="mt-2">Gearbox</h5>
-              <div className="c-g">Manual</div>
-            </div>
-          </div>
-        </Row>
-      </Container> */}
+      <div>
+        <NativeBnerads />
+      </div>
 
       {/* KEY SPECIFICATIONS OF BMW COMMODO IPSUM */}
       <Container fluid className='bg-light pt-5 pb-5'>

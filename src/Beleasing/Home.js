@@ -30,7 +30,6 @@ import { FaArrowCircleRight } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
 import { Helmet } from "react-helmet";
 import NativeBnerads from './NativeBnerads';
-import Popunderads from './Popunderads';
 import Bannerads from './Bannerads';
 
 
@@ -103,9 +102,8 @@ const Home = () => {
         </script>
       </Helmet>
 
-      {/* Ads Code */}
       <div>
-        <Popunderads />
+        <NativeBnerads />
       </div>
 
       {/* IMG */}

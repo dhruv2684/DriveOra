@@ -13,6 +13,8 @@ import MERCEDESCob from '../Beleasing Img/marsci.jpeg';
 import MercedesMATTIS from '../Beleasing Img/MERCEDES MATTIS ARCU MAXIMUS.jpeg';
 import hhatchback from '../Beleasing Img/hatchback car.webp';
 import Popunderads from './Popunderads';
+import Bannerads from './Bannerads';
+import NativeBnerads from './NativeBnerads';
 
 const cars = [
   { name: "BMW COMMODO IPSUM", price: "$1,990.00", link: "/bmw-commodo-ipsum", img: bmwcommodoipsum },
@@ -50,6 +52,10 @@ const Hatchback = () => {
         </Row>
       </Container>
 
+      <div>
+        <Bannerads />
+      </div>
+
       <Container fluid className="pt-md-3 pt-3 mt-md-5 mt-3 bg-light pb-5 overflow-hidden">
         <Row className="mt-5 g-lg-4 g-2">
           {cars.map((car, index) => (
@@ -76,6 +82,10 @@ const Hatchback = () => {
           ))}
         </Row>
       </Container>
+
+      <div>
+        <NativeBnerads />
+      </div>
 
       <Container fluid className="pb-5 bg-light" style={{ overflowX: "hidden" }}>
         <Row className="align-items-center">

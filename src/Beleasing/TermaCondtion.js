@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 import { FaArrowRight } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import NativeBnerads from './NativeBnerads'
+import Bannerads from './Bannerads'
 
 
 const cars = [
@@ -53,6 +54,9 @@ const TermaCondtion = () => {
                             <Card.Body>
                                 <h1 className="text-center mb-4">Terms and Conditions</h1>
                                 {/* <p className="text-muted text-center">Last Updated: [Date]</p> */}
+                                <div>
+                                    <Bannerads />
+                                </div>
                                 <hr />
                                 <h4>Acceptance of Terms</h4>
                                 <ul className='ps-3' style={{ listStyleType: "'▪ '" }}>

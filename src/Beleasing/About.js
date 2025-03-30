@@ -12,6 +12,7 @@ import ret from '../Beleasing Img/return.svg'
 import img1 from '../Beleasing Img/buy to driveora.jpeg'
 import { Helmet } from 'react-helmet';
 import NativeBnerads from './NativeBnerads';
+import Bannerads from './Bannerads';
 
 
 
@@ -34,9 +35,7 @@ const About = () => {
         <link rel="canonical" href="https://driveora.live/about" />
       </Helmet>
 
-      <div>
-        <NativeBnerads />
-      </div>
+
 
       {/* main img */}
       <Container fluid className="bele-img-1 overflow-hidden"> {/* ✅ Prevent Horizontal Scroll */}
@@ -123,6 +122,10 @@ const About = () => {
 
         </Row>
 
+        <div>
+          <NativeBnerads />
+        </div>
+
         <Row>
 
           {/* Left Image */}
@@ -189,6 +192,10 @@ const About = () => {
           </div>
         </Row>
       </Container>
+
+      <div>
+        <Bannerads />
+      </div>
 
 
       {/*  */}

@@ -8,6 +8,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa";
+import NativeBnerads from '../NativeBnerads';
 
 const Lamborghini = () => {
   return (
@@ -32,6 +33,9 @@ const Lamborghini = () => {
         </Row>
       </Container>
 
+      <div>
+        <NativeBnerads />
+      </div>
      
       {/* KEY SPECIFICATIONS OF BMW COMMODO IPSUM */}
       <Container fluid className='bg-light pt-5 pb-5'>

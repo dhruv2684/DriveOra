@@ -14,6 +14,8 @@ import AudiGT from '../Beleasing Img/2023 Audi R8 GT Coupe.jpeg';
 import BMWM4 from '../Beleasing Img/BMW 543HP 2025 M4 .jpeg';
 import comcar from '../Beleasing Img/combi car.webp';
 import Popunderads from './Popunderads';
+import Bannerads from './Bannerads';
+import NativeBnerads from './NativeBnerads';
 
 const cars = [
   {
@@ -76,6 +78,10 @@ const Combi = () => {
         </Row>
       </Container>
 
+      <div>
+        <Bannerads />
+      </div>
+
       {/* CHOOSE FROM 1,200 NEW CARS */}
       <Container fluid className="pt-md-3 pt-3 mt-md-5 mt-3 bg-light pb-5 overflow-hidden">
         <Row className="mt-5 g-lg-4 g-2">
@@ -103,6 +109,10 @@ const Combi = () => {
           ))}
         </Row>
       </Container>
+
+      <div>
+        <NativeBnerads />
+      </div>
 
       {/* RENTING IS PURE CONVENIENCE */}
       <Container fluid className="pb-5 bg-light" style={{ overflowX: "hidden" }}>

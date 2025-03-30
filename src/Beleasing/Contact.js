@@ -12,6 +12,7 @@ import { FaInstagram } from "react-icons/fa";
 import { Helmet } from 'react-helmet';
 import NativeBnerads from './NativeBnerads';
 import Popunderads from './Popunderads';
+import Bannerads from './Bannerads';
 
 
 
@@ -38,9 +39,6 @@ const Contact = () => {
         <Popunderads />
       </div>
 
-      <div>
-        <NativeBnerads />
-      </div>
 
       {/*  */}
       <Container fluid className="bele-img-2">
@@ -85,6 +83,10 @@ const Contact = () => {
 
         </Row>
       </Container>
+
+      <div>
+        <Bannerads />
+      </div>
 
       <Container fluid className="bg-light mt-md-5 mt-3 pt-md-5 pt-3">
         <Row>
@@ -133,6 +135,9 @@ const Contact = () => {
         </Row>
       </Container>
 
+      <div>
+        <NativeBnerads />
+      </div>
 
       {/* RENTING IS PURE CONVENIENCE */}
       <Container fluid className="pb-5 bg-light" style={{ overflowX: "hidden" }}>
@@ -176,9 +181,7 @@ const Contact = () => {
         </Row>
       </Container>
 
-      <div>
-        <NativeBnerads />
-      </div>
+
 
     </div>
   )

@@ -1,31 +1,36 @@
 import React, { useEffect, useState } from 'react'
 
 const Bannerads = () => {
-    const [adId, setAdId] = useState("");
-
+    
     useEffect(() => {
-        // Generate unique ID for the ad container
-        const uniqueId = "banner-ad-" + Math.random().toString(36).substr(2, 9);
-        setAdId(uniqueId);
+        const script1 = document.createElement("script");
+        script1.type = "text/javascript";
+        script1.innerHTML = `
+          atOptions = {
+            'key' : '83418254477f26e4d7c7658c837a66ec',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        `;
+        document.body.appendChild(script1);
 
-        if (adId) {
-            const script = document.createElement("script");
-            script.async = true;
-            script.dataset.cfasync = "false";
-            script.src = "//pl26253785.effectiveratecpm.com/e77bb2e2acba01d8566247f1d3ac8b8d/invoke.js";
+        const script2 = document.createElement("script");
+        script2.type = "text/javascript";
+        script2.src = "//www.highperformanceformat.com/83418254477f26e4d7c7658c837a66ec/invoke.js";
+        document.body.appendChild(script2);
 
-            document.body.appendChild(script);
-
-            return () => {
-                document.body.removeChild(script);
-            };
-        }
-    }, [adId]);
+        return () => {
+            document.body.removeChild(script1);
+            document.body.removeChild(script2);
+        };
+    }, []);
 
     return (
         <div>
-            <h2>Sponsored Ad</h2>
-            <div id={adId} style={{ width: "728px", height: "90px", margin: "20px auto", background: "#f1f1f1" }}></div>
+            <h3>Banner Ad</h3>
+            <div id="ad-container" style={{ width: "300px", height: "250px" }}></div>
         </div>
     );
 

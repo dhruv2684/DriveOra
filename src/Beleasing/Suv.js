@@ -14,6 +14,8 @@ import MERCEDESCob from '../Beleasing Img/marsci.jpeg';
 import AudiGT from '../Beleasing Img/2023 Audi R8 GT Coupe.jpeg';
 import suvcar from '../Beleasing Img/suv car.webp';
 import Popunderads from './Popunderads';
+import Bannerads from './Bannerads';
+import NativeBnerads from './NativeBnerads';
 
 const cars = [
   {
@@ -75,6 +77,10 @@ const Suv = () => {
         </Row>
       </Container>
 
+      <div>
+        <Bannerads />
+      </div>
+
       <Container fluid className="pt-md-3 pt-3 mt-md-5 mt-3 bg-light pb-5 overflow-hidden">
         <Row className="mt-5 g-lg-4 g-2">
           {cars.map((car, index) => (
@@ -101,6 +107,10 @@ const Suv = () => {
           ))}
         </Row>
       </Container>
+
+      <div>
+        <NativeBnerads />
+      </div>
 
       <Container fluid className="pb-5 bg-light" style={{ overflowX: "hidden" }}>
         <Row className="align-items-center">

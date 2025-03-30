@@ -15,6 +15,8 @@ import MercedesMATTIS from '../Beleasing Img/MERCEDES MATTIS ARCU MAXIMUS.jpeg';
 import BMWM4 from '../Beleasing Img/BMW 543HP 2025 M4 .jpeg';
 import sedan from '../Beleasing Img/sedan car.webp';
 import Popunderads from './Popunderads';
+import NativeBnerads from './NativeBnerads';
+import Bannerads from './Bannerads';
 
 const cars = [
   { name: "FORD ENIM NIBH LITORA", price: "$3,500.00", link: "/ford-enim-nibh-litora", img: fordenimnibhlitora },
@@ -60,6 +62,10 @@ const Sedan = () => {
         </Row>
       </Container>
 
+      <div>
+        <Bannerads />
+      </div>
+
       {/* CHOOSE FROM 1,200 NEW CARS */}
       <Container fluid className="pt-md-3 pt-3 mt-md-5 mt-3 bg-light pb-5 overflow-hidden">
         <Row className="mt-5 g-lg-4 g-2">
@@ -87,6 +93,10 @@ const Sedan = () => {
           ))}
         </Row>
       </Container>
+
+      <div>
+        <NativeBnerads />
+      </div>
 
       {/* RENTING IS PURE CONVENIENCE */}
       <Container fluid className="pb-5 bg-light" style={{ overflowX: "hidden" }}>

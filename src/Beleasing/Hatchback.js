@@ -4,7 +4,6 @@ import Button from 'react-bootstrap/Button';
 import { FaArrowCircleRight, FaArrowRight, FaLink } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
-import Popunderads from './Cars/Popunderads';
 
 // Images
 import audimiddel from '../Beleasing Img/audipng-removebg-preview.png';
@@ -13,6 +12,7 @@ import lamborghinirutrumlibero from '../Beleasing Img/LAMBORGHINI RUTRUM LIBERO.
 import MERCEDESCob from '../Beleasing Img/marsci.jpeg';
 import MercedesMATTIS from '../Beleasing Img/MERCEDES MATTIS ARCU MAXIMUS.jpeg';
 import hhatchback from '../Beleasing Img/hatchback car.webp';
+import Popunderads from './Cars/Popunderads';
 
 const cars = [
   { name: "BMW COMMODO IPSUM", price: "$1,990.00", link: "/bmw-commodo-ipsum", img: bmwcommodoipsum },

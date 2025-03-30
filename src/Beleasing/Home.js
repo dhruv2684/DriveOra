@@ -29,7 +29,8 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
 import { Helmet } from "react-helmet";
-// import Popunderads from './Cars/Popunderads';
+import NativeBnerads from './NativeBnerads';
+import Popunderads from './Cars/Popunderads';
 
 
 const Home = () => {
@@ -102,9 +103,13 @@ const Home = () => {
       </Helmet>
 
       {/* Ads Code */}
-      {/* <div>
+      <div>
         <Popunderads />
-      </div> */}
+      </div>
+
+      <div>
+        <NativeBnerads />
+      </div>
 
       {/* IMG */}
       <Container fluid className='bele-img mt-1'>

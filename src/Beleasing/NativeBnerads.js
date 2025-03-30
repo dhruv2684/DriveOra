@@ -1,12 +1,12 @@
 import React from 'react'
-import { useEffect } from "react";
 
-const Popunderads = () => {
+const NativeBnerads = () => {
     useEffect(() => {
+        // Script dynamically add karva mate
         const script = document.createElement("script");
-        script.type = "text/javascript";
-        script.src = "//pl26253243.effectiveratecpm.com/de/71/e9/de71e9e84dad3721790aba10ebc6faf2.js";
         script.async = true;
+        script.dataset.cfasync = "false";
+        script.src = "//pl26253785.effectiveratecpm.com/e77bb2e2acba01d8566247f1d3ac8b8d/invoke.js";
 
         document.body.appendChild(script);
 
@@ -18,9 +18,10 @@ const Popunderads = () => {
     return (
         <div>
             <h2>Sponsored Ad</h2>
-            <div id="ad-container"></div>
+            {/* Ad Display Here */}
+            <div id="container-e77bb2e2acba01d8566247f1d3ac8b8d"></div>
         </div>
     );
 }
 
-export default Popunderads
+export default NativeBnerads

@@ -17,8 +17,6 @@ const NativeBnerads = () => {
 
     return (
         <div>
-            <h2>Sponsored Ad</h2>
-            {/* Ad Display Here */}
             <div id="container-e77bb2e2acba01d8566247f1d3ac8b8d"></div>
         </div>
     );

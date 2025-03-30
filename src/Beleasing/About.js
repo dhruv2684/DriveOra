@@ -123,10 +123,6 @@ const About = () => {
 
         </Row>
 
-        <div>
-          <NativeBnerads />
-        </div>
-
         <Row>
 
           {/* Left Image */}
@@ -226,11 +222,6 @@ const About = () => {
 
         </div>
       </Container>
-
-
-      <div>
-        <NativeBnerads />
-      </div>
 
     </div >
   )

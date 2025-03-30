@@ -31,6 +31,7 @@ import { FaPlus } from "react-icons/fa";
 import { Helmet } from "react-helmet";
 import NativeBnerads from './NativeBnerads';
 import Popunderads from './Popunderads';
+import Bannerads from './Bannerads';
 
 
 const Home = () => {
@@ -105,10 +106,6 @@ const Home = () => {
       {/* Ads Code */}
       <div>
         <Popunderads />
-      </div>
-
-      <div>
-        <NativeBnerads />
       </div>
 
       {/* IMG */}
@@ -408,11 +405,11 @@ const Home = () => {
         </Container>
       </Container>
 
-
       <div>
-        <NativeBnerads />
+        <Bannerads />
       </div>
 
+      
       {/* HOW MUCH WILL YOU PAY? */}
       <Container fluid className="bg-light pt-5 pb-5 mt-5 overflow-hidden">
         <Row className="align-items-center">

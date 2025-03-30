@@ -13,6 +13,7 @@ import img1 from '../Beleasing Img/buy to driveora.jpeg'
 import { Helmet } from 'react-helmet';
 import NativeBnerads from './NativeBnerads';
 import Bannerads from './Bannerads';
+import Socialads from './Socialads';
 
 
 
@@ -90,6 +91,10 @@ const About = () => {
 
         </Row>
       </Container>
+
+      <div>
+        <Socialads />
+      </div>
 
       {/*  */}
       <Container fluid className="bg-light pt-5 pb-5 overflow-hidden">

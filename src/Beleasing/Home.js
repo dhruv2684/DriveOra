@@ -31,6 +31,7 @@ import { FaPlus } from "react-icons/fa";
 import { Helmet } from "react-helmet";
 import NativeBnerads from './NativeBnerads';
 import Bannerads from './Bannerads';
+import Socialads from './Socialads';
 
 
 const Home = () => {
@@ -151,7 +152,7 @@ const Home = () => {
           </div>
         </Row>
       </Container>
-      
+
       <div>
         <NativeBnerads />
       </div>
@@ -339,6 +340,10 @@ const Home = () => {
         </Row>
       </Container>
 
+      <div>
+        <Socialads />
+      </div>
+      
       {/* 6 car logo */}
       <Container fluid className="pb-md-5 pb-3 mb-md-5 mb-3">
         <Container>

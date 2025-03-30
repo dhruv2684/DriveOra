@@ -13,6 +13,7 @@ import { Helmet } from 'react-helmet';
 import NativeBnerads from './NativeBnerads';
 import Popunderads from './Popunderads';
 import Bannerads from './Bannerads';
+import Socialads from './Socialads';
 
 
 
@@ -181,7 +182,9 @@ const Contact = () => {
         </Row>
       </Container>
 
-
+      <div>
+        <Socialads />
+      </div>
 
     </div>
   )

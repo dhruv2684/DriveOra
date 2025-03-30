@@ -23,6 +23,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
 import NativeBnerads from './NativeBnerads';
 import Popunderads from './Popunderads';
+import Socialads from './Socialads';
 
 
 
@@ -208,6 +209,10 @@ const Allcars = () => {
           </div>
         </Row>
       </Container>
+
+      <div>
+        <Socialads />
+      </div>
 
       <div>
         <NativeBnerads />

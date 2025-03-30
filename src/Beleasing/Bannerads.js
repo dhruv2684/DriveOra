@@ -35,10 +35,6 @@ const BannerAd = () => {
                 id="ad-container"
                 style={{ width: "468px", height: "60px", overflow: "hidden" }}
             ></div>
-             <div
-                id="ad-container"
-                style={{ width: "468px", height: "60px", overflow: "hidden" }}
-            ></div>
         </div>
     );
 };

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
+import Socialads from './Socialads';
 
 const Privacy = () => {
 
@@ -58,6 +59,9 @@ const Privacy = () => {
                     </Col>
                 </Row>
             </Container>
+            <div>
+                <Socialads />
+            </div>
         </div>
     )
 }

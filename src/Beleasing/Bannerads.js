@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-const Bannerads = () => {
+const Bannerads = ({ adId, scriptSrc }) => {
     useEffect(() => {
         const script = document.createElement("script");
         script.async = true;

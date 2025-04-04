@@ -20,17 +20,16 @@ const BannerAd = () => {
         script2.src = "//lanentablelanentableenemyattractive.com/fbea65dd12ea97222d03b5fa3a287cd1/invoke.js";
         document.body.appendChild(script2);
 
-        // Cleanup on component unmount
         return () => {
             document.body.removeChild(script1);
             document.body.removeChild(script2);
         };
-    }, []);
+    }, [])
 
     return (
-        <div id="adsterra-banner" style={{ textAlign: "center", margin: "20px 0" }}>
-            {/* Ad will be injected here */}
-        </div>
+        <div style={{ textAlign: "center", margin: "20px 0", minHeight: "50px" }}>
+        {/* Ad will be injected here */}
+      </div>
     );
 };
 

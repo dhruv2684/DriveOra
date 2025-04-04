@@ -2,34 +2,40 @@ import { useEffect } from "react";
 
 const BannerAd = () => {
     useEffect(() => {
-        const script1 = document.createElement("script");
-        script1.type = "text/javascript";
-        script1.innerHTML = `
-          atOptions = {
-            'key' : 'fbea65dd12ea97222d03b5fa3a287cd1',
-            'format' : 'iframe',
-            'height' : 50,
-            'width' : 320,
-            'params' : {}
-          };
-        `;
-        document.body.appendChild(script1);
+        const adContainer = document.getElementById("ad-container");
 
-        const script2 = document.createElement("script");
-        script2.type = "text/javascript";
-        script2.src = "//lanentablelanentableenemyattractive.com/fbea65dd12ea97222d03b5fa3a287cd1/invoke.js";
-        document.body.appendChild(script2);
+        if (adContainer) {
+            adContainer.innerHTML = ""; // Purge old ads
 
-        return () => {
-            document.body.removeChild(script1);
-            document.body.removeChild(script2);
+            const script1 = document.createElement("script");
+            script1.type = "text/javascript";
+            script1.innerHTML = `
+        atOptions = {
+          'key' : 'eaa60ae4631a88d3d82d16b72b9c9d81',
+          'format' : 'iframe',
+          'height' : 60,
+          'width' : 468,
+          'params' : {}
         };
-    }, [])
+      `;
+            adContainer.appendChild(script1);
+
+            const script2 = document.createElement("script");
+            script2.type = "text/javascript";
+            script2.src = "//www.highperformanceformat.com/eaa60ae4631a88d3d82d16b72b9c9d81/invoke.js";
+            script2.async = true;
+            script2.defer = true;
+            adContainer.appendChild(script2);
+        }
+    }, []);
 
     return (
-        <div style={{ textAlign: "center", margin: "20px 0", minHeight: "50px" }}>
-        {/* Ad will be injected here */}
-      </div>
+        <div>
+            <div
+                id="ad-container"
+                style={{ width: "468px", height: "60px", overflow: "hidden" }}
+            ></div>
+        </div>
     );
 };
 
